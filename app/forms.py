@@ -16,5 +16,5 @@ class AppBancoForm(forms.ModelForm):
             'numero': forms.TextInput(attrs={'id': 'id_numero'}),
             'concorda_whatsapp': forms.CheckboxInput(attrs={'id': 'id_concorda_whatsapp'}),
             'lideranca': forms.TextInput(attrs={'id': 'id_lideranca'}),
-            
+          
         }
